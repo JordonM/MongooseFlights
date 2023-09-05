@@ -1,0 +1,137 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the entire page */
+  body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  /* Navigation links styles */
+  nav {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  /* Main content container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form styles */
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="number"],
+  form input[type="datetime-local"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  form button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Flight list styles */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Link style for back-to-list */
+  .back-link {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+  }
+  
+
+form.add-flight-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  form.add-flight-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form.add-flight-form input[type="text"],
+  form.add-flight-form input[type="number"],
+  form.add-flight-form input[type="datetime-local"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  form.add-flight-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .back-link {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+  }
+  
+
+  #formtitle {
+    text-align: center;
+  }
